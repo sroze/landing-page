@@ -1,0 +1,19 @@
+{
+  "name": "landing-page",
+  "version": "0.0.1",
+  "description": "That landing page you can use :)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "homepage": "https://github.com/sroze/landing-page",
+  "dependencies": {
+    "express": "^4.1.2",
+    "body-parser": "^1.1.2",
+    "errorhandler": "^1.0.1",
+    "method-override": "^1.0.0"
+  },
+  "bin": {
+    "simple-server": "./server.js"
+  }
+}

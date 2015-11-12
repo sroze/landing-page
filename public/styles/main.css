@@ -1,0 +1,18 @@
+html, body {
+	height: 100%;
+}
+body {
+	background: url(../background.jpg) center no-repeat;
+	background-size: cover;
+}
+
+div.message {
+	position: absolute;
+	top: 40%;
+	width: 100%;
+
+	color: #fff;
+	font-size: 2em;
+	text-align: center;
+	font-family: Roboto;
+}
