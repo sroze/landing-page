@@ -7,8 +7,9 @@ var express = require("express"),
     port = parseInt(process.env.PORT, 10) || 80,
     publicDir = process.argv[2] || __dirname + '/public';
 
-app.get("/", function (req, res) {
-  res.redirect("/index.html");
+app.get("/", function (req, res, next) {
+  req.url = '/index.html';
+  next();
 });
 
 app.use(methodOverride());
